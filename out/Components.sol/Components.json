@@ -1,0 +1,213 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "lib/forge-std/src/Components.sol",
+    "id": 1932,
+    "exportedSymbols": {
+      "DSTest": [
+        1887
+      ],
+      "StdAssertions": [
+        2745
+      ],
+      "StdCheats": [
+        4879
+      ],
+      "StdCheatsSafe": [
+        4490
+      ],
+      "StdStorage": [
+        5784
+      ],
+      "StdUtils": [
+        7613
+      ],
+      "Vm": [
+        8618
+      ],
+      "VmSafe": [
+        8293
+      ],
+      "console": [
+        16682
+      ],
+      "console2": [
+        24747
+      ],
+      "stdError": [
+        4945
+      ],
+      "stdJson": [
+        5611
+      ],
+      "stdMath": [
+        5753
+      ],
+      "stdStorage": [
+        7218
+      ],
+      "stdStorageSafe": [
+        6677
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:282:4",
+    "nodes": [
+      {
+        "id": 1921,
+        "nodeType": "PragmaDirective",
+        "src": "32:31:4",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.6",
+          ".2",
+          "<",
+          "0.9",
+          ".0"
+        ]
+      },
+      {
+        "id": 1922,
+        "nodeType": "ImportDirective",
+        "src": "65:23:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/console.sol",
+        "file": "./console.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 16683,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1923,
+        "nodeType": "ImportDirective",
+        "src": "89:24:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/console2.sol",
+        "file": "./console2.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 24748,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1924,
+        "nodeType": "ImportDirective",
+        "src": "114:29:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdAssertions.sol",
+        "file": "./StdAssertions.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 2746,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1925,
+        "nodeType": "ImportDirective",
+        "src": "144:25:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdCheats.sol",
+        "file": "./StdCheats.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 4880,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1926,
+        "nodeType": "ImportDirective",
+        "src": "170:24:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdError.sol",
+        "file": "./StdError.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 4946,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1927,
+        "nodeType": "ImportDirective",
+        "src": "195:23:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdJson.sol",
+        "file": "./StdJson.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 5612,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1928,
+        "nodeType": "ImportDirective",
+        "src": "219:23:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdMath.sol",
+        "file": "./StdMath.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 5754,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1929,
+        "nodeType": "ImportDirective",
+        "src": "243:26:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdStorage.sol",
+        "file": "./StdStorage.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 7219,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1930,
+        "nodeType": "ImportDirective",
+        "src": "270:24:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/StdUtils.sol",
+        "file": "./StdUtils.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 7614,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1931,
+        "nodeType": "ImportDirective",
+        "src": "295:18:4",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/Vm.sol",
+        "file": "./Vm.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1932,
+        "sourceUnit": 8619,
+        "symbolAliases": [],
+        "unitAlias": ""
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 4
+}

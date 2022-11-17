@@ -1,4 +1,9 @@
-node_modules/
-artifacts/
-cache/
-package-lock.json
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+cache
+artifacts
+forge_cache
