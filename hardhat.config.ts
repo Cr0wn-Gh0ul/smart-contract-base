@@ -24,11 +24,6 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 const config: HardhatUserConfig = {
 
     networks: {
-        ropsten: {
-            url: process.env.ROPSTEN_URL || "",
-            accounts:
-                process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
-        },
         hardhat: {
             chainId: 1337,
             allowUnlimitedContractSize: false,
@@ -36,7 +31,6 @@ const config: HardhatUserConfig = {
                 auto: true,
                 interval: 0,
             },
-            accounts: [],
         },
     },
 
@@ -62,7 +56,7 @@ const config: HardhatUserConfig = {
     },
     paths: {
         sources: "./contracts",
-        tests: "./test",
+        tests: "./hardhat-test",
         cache: "./cache",
         artifacts: "./artifacts",
     },
@@ -73,6 +67,7 @@ const config: HardhatUserConfig = {
         runOnCompile: true,
         strict: true,
     },
+
     gasReporter: {
         currency: "ETH",
         gasPrice: 1000000,

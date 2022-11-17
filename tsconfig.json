@@ -11,7 +11,7 @@
       "declaration": true
     },
     "include": [
-      "./test",
+      "hardhat-test",
       "./scripts",
       "./contracts",
       "./typechain-types/**/*",

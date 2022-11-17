@@ -19,11 +19,11 @@ contract CounterTest is Test {
 
     function testSetNumber(uint256 x) public {
         counter.setNumber(x);
-        /*
+        
         if (x < 555555555555555555) {
             x = 0;
         }
-        */
+        
         assertEq(counter.number(), x);
     }
 }
