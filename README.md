@@ -8,10 +8,10 @@
 2. Run `npm install` to install dependencies
 
 #### Development
-- Add contracts into /contracts
-- Add hardhat tests into /test
-- Add forge tests into /test/forge
-- Add scripts into /scripts
+- Add contracts into `/contracts`
+- Add hardhat tests into `/test`
+- Add forge tests into `/test/forge`
+- Add scripts into `/scripts`
 
 #### Testing
 - Run `forge test` to run the tests in forge
