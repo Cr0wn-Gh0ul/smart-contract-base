@@ -9,8 +9,8 @@
 
 #### Development
 - Add contracts into `/contracts`
-- Add hardhat tests into `/test`
-- Add forge tests into `/test/forge`
+- Add hardhat tests into `/hardhat-test`
+- Add forge tests into `/test`
 - Add scripts into `/scripts`
 
 #### Testing
