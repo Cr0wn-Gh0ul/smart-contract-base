@@ -20,7 +20,7 @@ contract CounterTest is Test {
     function testSetNumber(uint256 x) public {
         counter.setNumber(x);
         
-        if (x < 555555555555555555) {
+        if (x > 555555555555555555) {
             x = 0;
         }
         
