@@ -29,8 +29,11 @@ const config: HardhatUserConfig = {
             allowUnlimitedContractSize: false,
             mining: {
                 auto: true,
-                interval: 0,
+                interval: 1500,
             },
+            accounts: {
+                count: 200
+            }
         },
     },
 
@@ -43,7 +46,7 @@ const config: HardhatUserConfig = {
                     viaIR: true,
                     optimizer: {
                         enabled: true,
-                        runs: 4_294_967_295,
+                        runs: 200,
                     },
                     outputSelection: {
                         "*": {
